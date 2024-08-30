@@ -1,4 +1,7 @@
 import React from 'react'
+import img1 from './assets/hp-probook-4.png'
+import img2 from './assets/hp-probook-5.png'
+import img3 from './assets/iphone12-1.png'
 
 const App = () => {
     return (
@@ -13,13 +16,13 @@ const App = () => {
   
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./assets/react.svg" alt="Los Angeles" className="d-block w-100"/>
+      <img src={img1} alt="Los Angeles" className="d-block w-100"/>
     </div>
     <div className="carousel-item">
-      <img src="./assets/react.svg" alt="Chicago" className="d-block w-100"/>
+      <img src={img2} alt="Chicago" className="d-block w-100"/>
     </div>
     <div className="carousel-item">
-      <img src="./assets/react.svg" alt="New York" className="d-block w-100"/>
+      <img src={img3} alt="New York" className="d-block w-100"/>
     </div>
   </div>
   
